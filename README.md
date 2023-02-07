@@ -12,6 +12,16 @@ All the Common Core projects updated.
 -->
 
 <table border=3 <tr>
+	<td>
+		Project.N
+	</td><td>
+		Name
+	</td><td>
+		Language
+	</td><td>
+		Result
+	</td
+</tr><tr>
   <td>
 		1
 	</td><td>
