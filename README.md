@@ -41,3 +41,23 @@ All the Common Core projects updated.
 	</td><td>
 		<img src="https://badge42.vercel.app/api/v2/cldu2s4nx00440gl8a0gi877d/project/2963820"/>
 	</td>
+</tr><tr>
+  <td>
+		3
+	</td><td>
+		<a href="https://github.com/MirkokriM/Get_next_line">GNL</a>
+	</td><td>
+		C
+	</td><td>
+		<img src="https://badge42.vercel.app/api/v2/cldu2s4nx00440gl8a0gi877d/project/2976635"/>
+	</td>
+</tr><tr>
+  <td>
+		4
+	</td><td>
+		<a href="https://github.com/MirkokriM/Born2beroot">Born2beroot</a>
+	</td><td>
+		C
+	</td><td>
+		<img src="https://badge42.vercel.app/api/v2/cldu2s4nx00440gl8a0gi877d/project/3000664"/>
+	</td>
