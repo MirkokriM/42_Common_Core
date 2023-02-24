@@ -57,7 +57,7 @@ All the Common Core projects updated.
 	</td><td>
 		<a href="https://github.com/MirkokriM/Born2beroot">Born2beroot</a>
 	</td><td>
-		C
+		GNUNIX
 	</td><td>
 		<img src="https://badge42.vercel.app/api/v2/cldu2s4nx00440gl8a0gi877d/project/3000664"/>
 	</td>
