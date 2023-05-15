@@ -25,7 +25,7 @@ All the Common Core projects updated.
   <td>
 		1
 	</td><td>
-		<a href="https://github.com/MirkokriM/libft">Libft</a>
+		<a href="https://github.com/MirkokriM/42_Common_Core/libft">Libft</a>
 	</td><td>
 		C
 	</td><td>
@@ -35,7 +35,7 @@ All the Common Core projects updated.
     <td>
 		2
 	</td><td>
-		<a href="https://github.com/MirkokriM/ft_printf">ft_printf</a>
+		<a href="https://github.com/MirkokriM/42_Common_Core/ft_printf">ft_printf</a>
 	</td><td>
 		C
 	</td><td>
@@ -45,7 +45,7 @@ All the Common Core projects updated.
   <td>
 		3
 	</td><td>
-		<a href="https://github.com/MirkokriM/Get_next_line">GNL</a>
+		<a href="https://github.com/MirkokriM/42_Common_Core/Get_next_line">GNL</a>
 	</td><td>
 		C
 	</td><td>
@@ -55,7 +55,7 @@ All the Common Core projects updated.
   <td>
 		4
 	</td><td>
-		<a href="https://github.com/MirkokriM/Born2beroot">Born2beroot</a>
+		<a href="https://github.com/MirkokriM/42_Common_Core/Born2beroot">Born2beroot</a>
 	</td><td>
 		GNUNIX
 	</td><td>
