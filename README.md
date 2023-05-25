@@ -61,3 +61,33 @@ All the Common Core projects updated.
 	</td><td>
 		<img src="https://badge42.vercel.app/api/v2/cldu2s4nx00440gl8a0gi877d/project/3000664"/>
 	</td>
+</tr><tr>
+  <td>
+		5
+	</td><td>
+		<a href="https://github.com/MirkokriM/42_Common_Core/tree/main/Minitalk">Minitalk</a>
+	</td><td>
+		C
+	</td><td>
+		<img src="https://badge42.vercel.app/api/v2/cldu2s4nx00440gl8a0gi877d/project/3023108"/>
+	</td>
+</tr><tr>
+  <td>
+		6
+	</td><td>
+		<a href="https://github.com/MirkokriM/42_Common_Core/tree/main/Fract-ol">Fract-ol</a>
+	</td><td>
+		C
+	</td><td>
+		<img src="https://badge42.vercel.app/api/v2/cldu2s4nx00440gl8a0gi877d/project/3067293"/>
+	</td>
+</tr><tr>
+  <td>
+		7
+	</td><td>
+		<a href="https://github.com/MirkokriM/42_Common_Core/tree/main/push_swap">push_swap</a>
+	</td><td>
+		C
+	</td><td>
+		<img src="https://badge42.vercel.app/api/v2/cldu2s4nx00440gl8a0gi877d/project/3066008"/>
+	</td>
