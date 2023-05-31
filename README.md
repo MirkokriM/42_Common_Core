@@ -26,7 +26,7 @@
   <td>
 		1
 	</td><td>
-		<a href="https://github.com/MirkokriM/42_Common_Core/tree/main/libft">Libft</a>
+		<a href="https://github.com/MirkokriM/Libft">Libft</a>
 	</td><td>
 		C
 	</td><td>
@@ -46,7 +46,7 @@
   <td>
 		3
 	</td><td>
-		<a href="https://github.com/MirkokriM/42_Common_Core/tree/main/Get_next_line">GNL</a>
+		<a href="https://github.com/MirkokriM/Get_next_line">GNL</a>
 	</td><td>
 		C
 	</td><td>
@@ -56,7 +56,7 @@
   <td>
 		4
 	</td><td>
-		<a href="https://github.com/MirkokriM/42_Common_Core/tree/main/Born2beroot">Born2beroot</a>
+		<a href="https://github.com/MirkokriM/Born2beroot">Born2beroot</a>
 	</td><td>
 		GNUNIX
 	</td><td>
@@ -66,7 +66,7 @@
   <td>
 		5
 	</td><td>
-		<a href="https://github.com/MirkokriM/42_Common_Core/tree/main/Minitalk">Minitalk</a>
+		<a href="https://github.com/MirkokriM/Minitalk">Minitalk</a>
 	</td><td>
 		C
 	</td><td>
@@ -76,7 +76,7 @@
   <td>
 		6
 	</td><td>
-		<a href="https://github.com/MirkokriM/42_Common_Core/tree/main/Fract-ol">Fract-ol</a>
+		<a href="https://github.com/MirkokriM/Fract-ol">Fract-ol</a>
 	</td><td>
 		C
 	</td><td>
@@ -86,7 +86,7 @@
   <td>
 		7
 	</td><td>
-		<a href="https://github.com/MirkokriM/42_Common_Core/tree/main/push_swap">push_swap</a>
+		<a href="https://github.com/MirkokriM/Push_swap">push_swap</a>
 	</td><td>
 		C
 	</td><td>
