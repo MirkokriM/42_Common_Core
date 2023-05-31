@@ -36,7 +36,7 @@
     <td>
 		2
 	</td><td>
-		<a href="https://github.com/MirkokriM/42_Common_Core/tree/main/ft_printf">ft_printf</a>
+		<a href="https://github.com/MirkokriM/ft_printf">ft_printf</a>
 	</td><td>
 		C
 	</td><td>
