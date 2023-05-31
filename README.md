@@ -46,7 +46,7 @@
   <td>
 		3
 	</td><td>
-		<a href="https://github.com/MirkokriM/Get_next_line">GNL</a>
+		<a href="https://github.com/MirkokriM/Get_Next_Line">GNL</a>
 	</td><td>
 		C
 	</td><td>
