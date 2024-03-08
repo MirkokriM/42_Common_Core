@@ -36,6 +36,7 @@ alias "py"="python3"
 alias "www"="python3 -m http.server 8000"
 
 # Shell
+alias "ll"="ls -alF"
 alias "c"="clear; printf '\e[3J'"
 alias "v"="vim"
 alias ".."="cd .."
