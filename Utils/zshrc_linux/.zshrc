@@ -1,8 +1,7 @@
 # https://tangible-harbor-c59.notion.site/FT_Cursus-98f688bd250a4601b6e55ac699d17cb0
 # https://find-peers.codam.nl/Rome
 
-
-###   ALIAS   ###
+### ALIASES: BY MIRKOKRIM ###
 
 # Git
 alias "gcl"="git clone"
@@ -10,8 +9,18 @@ alias "add"="git add"
 alias "stat"="git status"
 alias "gc"="git commit -m"
 alias "glog"="git log"
-alias "pull"="git pull"
+alias "pull"="git pull" #Dont do it if you don't know what "git pull" is
 alias "push"="git push"
+alias "git_tel"="gcl git@github.com:Your/Git/Repo.git" #Remember to set your SSH key before.
+
+#This func allow you to push on Github in a more fast way.
+#Syntax: $> git_all "Comment for your commit."
+#*then press enter*
+git_all() {
+    add .
+    gc "$1"
+    push
+}
 
 # Make
 alias "m"="make"
@@ -20,27 +29,27 @@ alias "rr"="make rrun"
 alias "mr"="make re"
 alias "mf"="make fclean"
 alias "ma"="make all"
+alias "mn"="make norm"
 
 # Python
 alias "py"="python3"
 alias "www"="python3 -m http.server 8000"
 
-# Sh
+# Shell
 alias "c"="clear; printf '\e[3J'"
 alias "v"="vim"
 alias ".."="cd .."
+alias "..."="cd ..; cd .."
 alias "now"='date +"%T"'
 alias "rma"='rm -rf'
 
 # Zsh
+alias "g"="gcc -Werror -Wextra -Wall"
 alias "des"="cd ~/Desktop"
 alias "n"="norminette"
 #alias "nc"="norminette *.c"
 #alias "nh"="norminette *.h"
-alias "..."=" cd ..; cd .."
-alias "git_tel"="gcl git@github.com:MirkokriM/teleport.git"
-alias "upp"="git pull"
-alias "alias_mod"="vim ~/.zshrc"
+alias "alias_mod"="vim ~/.zshrc_aliases" #Or simply .zshrc if u want to store there your aliases.
 alias "alias_reload"="source ~/.zshrc"
 
 ###   PROMPT   ###
@@ -57,30 +66,8 @@ EXITSTATUS="\`if [ \$? = 0 ]; then echo '${GREEN}'; else echo '${RED}'; fi\`"
 PROMPT='%F{green}%m%f:%F{cyan}%B%~%b%f%# '
 export PROMPT
 
-alias "g"="gcc -Werror -Wextra -Wall"
-
-alias "cmac"="(df -h | grep /Users/tde-nico | grep -ioE '[0-9]\.[0-9]' | awk 'NR%2!=1' ; \\
-find ~/Desktop -name \"._*\" -delete ; \\
-rm -rf ~/Library/*.42* &>/dev/null ; \\
-rm -rf ~/*.42* &>/dev/null ; \\
-rm -rf ~/.zcompdump* &>/dev/null ; \\
-rm -rf ~/.cocoapods.42_cache_bak* &>/dev/null ; \\
-rm -rf ~/.Trash/* &>/dev/null ; \\
-chmod -R 777 ~/Library/Caches/Homebrew &>/dev/null ; \\
-rm -rf ~/Library/Caches/* &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/Caches/* &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/Slack/Service\\ Worker/CacheStorage/* &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/Code/User/workspaceStorage/* &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/discord/Cache/* &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/discord/Code\\ Cache/js* &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/Google/Chrome/Profile\\ [0-9]/Service\\ Worker/CacheStorage/* &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/Google/Chrome/Default/Service\ Worker/CacheStorage/* &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/Google/Chrome/Profile\\ [0-9]/Application\\ Cache/* &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/Google/Chrome/Default/Application\\ Cache/* &>/dev/null ; \\
-find ~/Desktop -name .DS_Store -depth -exec rm {} \\; &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/Chromium/Default/File\\ System &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/Chromium/Profile\\ [0-9]/File\\ System &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/Google/Chrome/Default/File\\ System &>/dev/null ; \\
-rm -rf ~/Library/Application\\ Support/Google/Chrome/Profile\\ [0-9]/File\\ System &>/dev/null ; \\
-df -h | grep /Users/tde-nico | grep -ioE '[0-9]\.[0-9]' | awk 'NR%2!=1') \\
-2> /dev/null | tr '\n' ' ' | sed '\$s/ $//'"
+#If you want to store alias in a separate file, like this one, add the next if statement at the end
+#of your .zshrc file to link the .zsh_aliases file.
+#if [ -f ~/.zsh_aliases ]; then
+#   . ~/.zsh_aliases
+#fi
